@@ -11,6 +11,15 @@
 		1CF10948281991B9004934DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF10947281991B9004934DA /* ContentView.swift */; };
 		1CF1094A281991BD004934DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF10949281991BD004934DA /* Assets.xcassets */; };
 		1CF1094D281991BD004934DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1094C281991BD004934DA /* Preview Assets.xcassets */; };
+		1CF109552819926E004934DA /* FitnessRings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF109542819926E004934DA /* FitnessRings.swift */; };
+		1CF1095728199294004934DA /* Rings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1095628199294004934DA /* Rings.swift */; };
+		1CF1095F28199472004934DA /* iOSFitnessRingsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1095E28199472004934DA /* iOSFitnessRingsDemoApp.swift */; };
+		1CF1096128199472004934DA /* iOSContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1096028199472004934DA /* iOSContentView.swift */; };
+		1CF1096328199475004934DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1096228199475004934DA /* Assets.xcassets */; };
+		1CF1096628199475004934DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1096528199475004934DA /* Preview Assets.xcassets */; };
+		1CF1096A28199479004934DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF10947281991B9004934DA /* ContentView.swift */; };
+		1CF1096B2819947C004934DA /* FitnessRings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF109542819926E004934DA /* FitnessRings.swift */; };
+		1CF1096C2819947E004934DA /* Rings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1095628199294004934DA /* Rings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +29,24 @@
 		1CF10949281991BD004934DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CF1094C281991BD004934DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1CF1094E281991BD004934DA /* FitnessRingsDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FitnessRingsDemo.entitlements; sourceTree = "<group>"; };
+		1CF109542819926E004934DA /* FitnessRings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessRings.swift; sourceTree = "<group>"; };
+		1CF1095628199294004934DA /* Rings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rings.swift; sourceTree = "<group>"; };
+		1CF1095C28199472004934DA /* iOSFitnessRingsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFitnessRingsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF1095E28199472004934DA /* iOSFitnessRingsDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSFitnessRingsDemoApp.swift; sourceTree = "<group>"; };
+		1CF1096028199472004934DA /* iOSContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSContentView.swift; sourceTree = "<group>"; };
+		1CF1096228199475004934DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CF1096528199475004934DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1CF1093F281991B9004934DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF1095928199472004934DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				1CF10944281991B9004934DA /* FitnessRingsDemo */,
+				1CF1095D28199472004934DA /* iOSFitnessRingsDemo */,
 				1CF10943281991B9004934DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				1CF10942281991B9004934DA /* FitnessRingsDemo.app */,
+				1CF1095C28199472004934DA /* iOSFitnessRingsDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +79,8 @@
 			children = (
 				1CF10945281991B9004934DA /* FitnessRingsDemoApp.swift */,
 				1CF10947281991B9004934DA /* ContentView.swift */,
+				1CF109542819926E004934DA /* FitnessRings.swift */,
+				1CF1095628199294004934DA /* Rings.swift */,
 				1CF10949281991BD004934DA /* Assets.xcassets */,
 				1CF1094E281991BD004934DA /* FitnessRingsDemo.entitlements */,
 				1CF1094B281991BD004934DA /* Preview Content */,
@@ -65,6 +92,25 @@
 			isa = PBXGroup;
 			children = (
 				1CF1094C281991BD004934DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CF1095D28199472004934DA /* iOSFitnessRingsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1095E28199472004934DA /* iOSFitnessRingsDemoApp.swift */,
+				1CF1096028199472004934DA /* iOSContentView.swift */,
+				1CF1096228199475004934DA /* Assets.xcassets */,
+				1CF1096428199475004934DA /* Preview Content */,
+			);
+			path = iOSFitnessRingsDemo;
+			sourceTree = "<group>";
+		};
+		1CF1096428199475004934DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1CF1096528199475004934DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -89,6 +135,23 @@
 			productReference = 1CF10942281991B9004934DA /* FitnessRingsDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1CF1095B28199472004934DA /* iOSFitnessRingsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF1096728199475004934DA /* Build configuration list for PBXNativeTarget "iOSFitnessRingsDemo" */;
+			buildPhases = (
+				1CF1095828199472004934DA /* Sources */,
+				1CF1095928199472004934DA /* Frameworks */,
+				1CF1095A28199472004934DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSFitnessRingsDemo;
+			productName = iOSFitnessRingsDemo;
+			productReference = 1CF1095C28199472004934DA /* iOSFitnessRingsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -100,6 +163,9 @@
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					1CF10941281991B9004934DA = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					1CF1095B28199472004934DA = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
@@ -118,6 +184,7 @@
 			projectRoot = "";
 			targets = (
 				1CF10941281991B9004934DA /* FitnessRingsDemo */,
+				1CF1095B28199472004934DA /* iOSFitnessRingsDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +199,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1CF1095A28199472004934DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF1096628199475004934DA /* Preview Assets.xcassets in Resources */,
+				1CF1096328199475004934DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,8 +215,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF109552819926E004934DA /* FitnessRings.swift in Sources */,
+				1CF1095728199294004934DA /* Rings.swift in Sources */,
 				1CF10948281991B9004934DA /* ContentView.swift in Sources */,
 				1CF10946281991B9004934DA /* FitnessRingsDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF1095828199472004934DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF1096B2819947C004934DA /* FitnessRings.swift in Sources */,
+				1CF1096C2819947E004934DA /* Rings.swift in Sources */,
+				1CF1096128199472004934DA /* iOSContentView.swift in Sources */,
+				1CF1095F28199472004934DA /* iOSFitnessRingsDemoApp.swift in Sources */,
+				1CF1096A28199479004934DA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +404,69 @@
 			};
 			name = Release;
 		};
+		1CF1096828199475004934DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSFitnessRingsDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = W8C8UQ95CG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alyxferrari.iOSFitnessRingsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CF1096928199475004934DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOSFitnessRingsDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = W8C8UQ95CG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alyxferrari.iOSFitnessRingsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +484,15 @@
 			buildConfigurations = (
 				1CF10952281991BD004934DA /* Debug */,
 				1CF10953281991BD004934DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CF1096728199475004934DA /* Build configuration list for PBXNativeTarget "iOSFitnessRingsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF1096828199475004934DA /* Debug */,
+				1CF1096928199475004934DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
